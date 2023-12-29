@@ -1,0 +1,47 @@
+.pizza-option {
+    display: block;
+    position: relative;
+}
+.pizza-image1 {
+    display: block;
+    height: 300px;
+    width: auto;
+    position:absolute;
+    top: -200%;
+    left: 48.8%;
+    transform: translate(-50%, -50%) rotate(-40deg);
+    
+}
+.pizza-image2 {
+    display: block;
+    height: 300px;
+    width: auto;
+    position:absolute;
+    top: 200%;
+    left: 48.8%;
+    transform: translate(-50%, -50%) rotate(-40deg);
+    
+}
+.button {
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  background-color: #F27329;
+}
+.button-primary, .button-secondary {
+    color: white;
+    background-color: black;
+    border:none;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    cursor: pointer;
+    margin: auto;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
